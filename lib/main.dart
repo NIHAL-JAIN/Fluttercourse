@@ -14,7 +14,7 @@ class  HomePage extends StatelessWidget {
         title: Text("Awsome App"),
       ),
       body: Container(
-        child: Center(child: Text("Hi Fulutter")),
+        child: Center(child: Text("Hi fFulutter")),
       ),
     );
     
