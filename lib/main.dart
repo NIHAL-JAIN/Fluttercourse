@@ -18,7 +18,7 @@ class  HomePage extends StatelessWidget {
         child: Align(
           alignment: Alignment.bottomRight,
                   child: Container(
-            color: Colors.black,
+            color: Colors.blue,
             width: 200,
             height: 400, 
                   child: Padding(
