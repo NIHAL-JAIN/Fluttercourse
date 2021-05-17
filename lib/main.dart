@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_1/pages/home_page.dart';
-import 'package:flutter_application_1/pages/home_page_with_fb.dart';
+import 'package:flutter_application_1/pages/home_page_with_sb.dart';
 import 'package:flutter_application_1/pages/login_page.dart';
 import 'package:flutter_application_1/util/Constraints.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -15,7 +15,7 @@ Future main() async {
       debugShowCheckedModeBanner: false,
       title: "Awsome App",
       home: Constants.prefs.getBool("loggedIn") == true
-          ? HomePageFB()
+          ? HomePageSB()
           : LoginPage(),
       theme: ThemeData(
         primarySwatch: Colors.purple,
